@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
 
   s.require_paths     = ['ext/bson_ext']
   s.extensions        = ['ext/cbson/extconf.rb']
-  s.has_rdoc          = 'yard'
 
   s.add_dependency('bson', ">= 3.0.4")
 end
